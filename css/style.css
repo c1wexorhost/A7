@@ -3554,7 +3554,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-brand {
   color: #fff; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: #fff; }
+    color: -webkit-linear-gradient(#eee, #333);  }
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5); }

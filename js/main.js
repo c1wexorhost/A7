@@ -315,3 +315,21 @@
 
  // Display the formatted date in the "date" span
  document.getElementById('currentDate').textContent = formattedDate;
+
+//Email validation.
+ function validateEmail() {
+	var emailInput = document.getElementById('email');
+	var email = emailInput.value;
+
+	// Regular expression for basic email validation
+	var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+	if (!emailRegex.test(email)) {
+		alert('Please enter a valid email address.');
+		emailInput.focus();
+		return false;
+	}
+
+	// If the email is valid, you can proceed with the form submission
+	return true;
+}
