@@ -306,3 +306,12 @@
 
 })(jQuery);
 
+
+ // Get the current date
+ var currentDate = new Date();
+
+ // Format the date (e.g., "Aug 20, 2018")
+ var formattedDate = currentDate.toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+
+ // Display the formatted date in the "date" span
+ document.getElementById('currentDate').textContent = formattedDate;
