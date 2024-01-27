@@ -9429,3 +9429,31 @@ textarea.form-control {
 }
 
 
+.whats{
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  z-index: 999;
+
+
+
+}
+
+.wts{
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .whats {
+      bottom: 30px;
+      right: 30px;
+  }
+
+  .whats i {
+      font-size: 40px;
+  }
+}
+
+
+
+
