@@ -9454,6 +9454,14 @@ textarea.form-control {
   }
 }
 
+.map-wrapper{
+  max-width:fit-content;
+  border: 2px solid;
+
+}
+.googlemap{
+  width: 100%;
+}
 
 
 
